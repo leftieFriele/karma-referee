@@ -3,7 +3,7 @@ karma-buster-assertions-plugin
 
 Really simple plugin for using [buster-assertions](http://docs.busterjs.org/en/latest/modules/buster-assertions/#buster-assertions) with [Karma](http://karma-runner.github.io/)
 
-# Instalation 
+## Instalation 
 
 	$ npm install karma-buster-assertion-plugin --save-dev
 
@@ -26,8 +26,3 @@ Viola, you can now enjoy the assertions awesomeness from Buster in the comfort o
 	...
 	assert.isTrue(true)
 	...
-
-# Dependencies
-	
-* buster-core
-* buster-assertions
