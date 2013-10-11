@@ -1,0 +1,12 @@
+{
+	"name": "karma-buster-assertions",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:leftieFriele/karma-buster-assertions.git"
+	},
+	"devDependencies": {
+		"buster-core": "0.6.4",
+		"buster-assertions": "0.10.4"
+	}
+}
