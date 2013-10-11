@@ -1,12 +1,27 @@
 {
-	"name": "karma-buster-assertions-plugin",
-	"version": "0.0.3",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:leftieFriele/karma-buster-assertions.git"
-	},
-	"dependencies": {
-		"buster-core": "0.6.4",
-		"buster-assertions": "0.10.4"
-	}
+    "name": "karma-buster-assertions-plugin",
+    "description": "Karma plugin providing buster-assertions",
+    "version": "0.0.4",
+    "keywords": [
+        "karma",
+        "karma-plugins",
+        "buster",
+        "buster-js",
+        "buster-assertions"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:leftieFriele/karma-buster-assertions.git"
+    },
+    "licence": "MIT",
+    "homepage": "https://github.com/leftieFriele/karma-buster-assertions-plugin",
+    "author": {
+        "name": "Espen Dalløkken",
+        "email": "leftie.friele@gmail.com"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "buster-core": "~0.6.4",
+        "buster-assertions": "0.10.4"
+    }
 }
