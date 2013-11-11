@@ -1,7 +1,11 @@
 karma-buster-assertions-plugin
 =======================
 
-Really simple plugin for using [buster-assertions](http://docs.busterjs.org/en/latest/modules/buster-assertions/#buster-assertions) with [Karma](http://karma-runner.github.io/)
+Alert! 
+This project is migrating towards using [referee](https://github.com/busterjs/referee), which is the new project which contains everything in [buster-assertions](http://docs.busterjs.org/en/latest/modules/buster-assertions/#buster-assertions), but as a separate module.
+This plugin will probably be renamed to reflect this change.
+
+Really simple plugin for using [ with [Karma](http://karma-runner.github.io/)
 
 ## Instalation 
 

@@ -1,7 +1,7 @@
 {
     "name": "karma-buster-assertions-plugin",
     "description": "Karma plugin providing buster-assertions",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "keywords": [
         "karma",
         "karma-plugins",
@@ -21,7 +21,7 @@
     },
     "main": "index.js",
     "dependencies": {
-        "buster-core": "~0.6.4",
-        "buster-assertions": "0.10.4"
+        "referee": "1.0.1",
+        "referee-sinon": "1.0.1"
     }
 }

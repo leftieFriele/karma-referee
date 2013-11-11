@@ -13,11 +13,13 @@ var exports = (function() {
 	};
 
 	var initBusterAssertions = function(files) {
-		files.unshift(createPattern(__dirname + '/node_modules/buster-assertions/lib/buster-assertions.js'));
-		files.unshift(createPattern(__dirname + '/node_modules/buster-core/lib/buster-event-emitter.js'));
-		files.unshift(createPattern(__dirname + '/node_modules/buster-core/lib/buster-core.js'));
+		//files.unshift(createPattern(__dirname + '/ba-adapter.js'));
+		files.unshift(createPattern(__dirname + '/node_modules/referee/lib/expect.js'));
+		files.unshift(createPattern(__dirname + '/node_modules/referee/lib/referee.js'));
+		files.unshift(createPattern(__dirname + '/node_modules/referee/node_modules/bane/lib/bane.js'));
+		files.unshift(createPattern(__dirname + '/node_modules/referee/node_modules/lodash/dist/lodash.js'));
+		files.unshift(createPattern(__dirname + '/node_modules/referee/node_modules/samsam/lib/samsam.js'));
 	};
-
 	initBusterAssertions.$inject = ['config.files'];
 	return {
 		'framework:buster-assertions': ['factory', initBusterAssertions]
