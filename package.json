@@ -1,6 +1,6 @@
 {
-    "name": "karma-referee-plugin",
-    "description": "Karma plugin providing referee assertions library",
+    "name": "karma-referee",
+    "description": "A Karma plugin for the Referee assertions library",
     "version": "0.1.0",
     "keywords": [
         "karma",
@@ -14,7 +14,7 @@
         "url": "git@github.com:leftieFriele/karma-referee.git"
     },
     "licence": "MIT",
-    "homepage": "https://github.com/leftieFriele/karma-referee-plugin",
+    "homepage": "https://github.com/leftieFriele/karma-referee",
     "author": {
         "name": "Espen Dalløkken",
         "email": "leftie.friele@gmail.com"

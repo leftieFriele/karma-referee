@@ -1,4 +1,4 @@
-karma-referee-plugin
+karma-referee
 =======================
 
 This project enables you to use [referee](https://github.com/busterjs/referee) (previously known as [buster-assertions](http://docs.busterjs.org/en/latest/modules/referees/#buster-assertions)) as part of your tests running on [Karma-runner](http://karma-runner.github.io/).
@@ -11,13 +11,13 @@ In addition to referee the plugin also expose the features in the [referee-sinon
 
 Add ``referees` as a framework:
 
-	frameworks: ['referees']
+	frameworks: ['referee']
 
 
-Then make sure you configure the ``karma-referees`` plugin.
+Then make sure you configure the ``karma-referee`` plugin.
 
 	plugins: [
-		'karma-referees-plugin'
+		'karma-referee'
 	]
 
 Viola, you can now enjoy the assertions awesomeness from Referee in the comfort of your very own Karma-runner!

@@ -22,7 +22,7 @@ var exports = (function() {
 	};
 	initBusterAssertions.$inject = ['config.files'];
 	return {
-		'framework:buster-assertions': ['factory', initBusterAssertions]
+		'framework:referee': ['factory', initBusterAssertions]
 	};
 }());
 
