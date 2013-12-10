@@ -1,20 +1,20 @@
 {
-    "name": "karma-buster-assertions-plugin",
-    "description": "Karma plugin providing buster-assertions",
-    "version": "0.0.5",
+    "name": "karma-referee-plugin",
+    "description": "Karma plugin providing referee assertions library",
+    "version": "0.1.0",
     "keywords": [
         "karma",
         "karma-plugins",
         "buster",
-        "buster-js",
-        "buster-assertions"
+        "sinon",
+        "referee"
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:leftieFriele/karma-buster-assertions.git"
+        "url": "git@github.com:leftieFriele/karma-referee.git"
     },
     "licence": "MIT",
-    "homepage": "https://github.com/leftieFriele/karma-buster-assertions-plugin",
+    "homepage": "https://github.com/leftieFriele/karma-referee-plugin",
     "author": {
         "name": "Espen Dalløkken",
         "email": "leftie.friele@gmail.com"

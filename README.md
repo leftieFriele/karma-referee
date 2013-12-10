@@ -1,32 +1,28 @@
-karma-buster-assertions-plugin
+karma-referee-plugin
 =======================
 
-Alert! 
-This project is migrating towards using [referee](https://github.com/busterjs/referee), which is the new project which contains everything in [buster-assertions](http://docs.busterjs.org/en/latest/modules/buster-assertions/#buster-assertions), but as a separate module.
-This plugin will probably be renamed to reflect this change.
+This project enables you to use [referee](https://github.com/busterjs/referee) (previously known as [buster-assertions](http://docs.busterjs.org/en/latest/modules/referees/#buster-assertions)) as part of your tests running on [Karma-runner](http://karma-runner.github.io/).
 
-Really simple plugin for using [Karma](http://karma-runner.github.io/)
+In addition to referee the plugin also expose the features in the [referee-sinon]() module which provides sinon features as part of your assertions.
 
 ## Instalation 
 
-	$ npm install karma-buster-assertion-plugin --save-dev
+	$ npm install karma-referee-plugin --save-dev
 
-Add ``buster-assertions` as a framework:
+Add ``referees` as a framework:
 
-	frameworks: ['buster-assertions']
+	frameworks: ['referees']
 
 
-Then make sure you configure the ``karma-buster-assertions`` plugin.
+Then make sure you configure the ``karma-referees`` plugin.
 
 	plugins: [
-		'karma-buster-assertions-plugin'
+		'karma-referees-plugin'
 	]
 
-Viola, you can now enjoy the assertions awesomeness from Buster in the comfort of your very own Karma-runner!
-
-
+Viola, you can now enjoy the assertions awesomeness from Referee in the comfort of your very own Karma-runner!
 	...
-	var assert = buster.assertions.assert;
+	assert.isTrue(true);
+	refute.isTrue(object);
 	...
-	assert.isTrue(true)
-	...
+	assert.calledOnce(stub);

@@ -13,7 +13,7 @@ var exports = (function() {
 	};
 
 	var initBusterAssertions = function(files) {
-		//files.unshift(createPattern(__dirname + '/ba-adapter.js'));
+		files.unshift(createPattern(__dirname + '/ba-adapter.js'));
 		files.unshift(createPattern(__dirname + '/node_modules/referee/lib/expect.js'));
 		files.unshift(createPattern(__dirname + '/node_modules/referee/lib/referee.js'));
 		files.unshift(createPattern(__dirname + '/node_modules/referee/node_modules/bane/lib/bane.js'));
