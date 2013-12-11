@@ -24,8 +24,3 @@ Then make sure you configure the ``karma-referee`` plugin.
 	]
 
 Viola, you can now enjoy the assertions awesomeness from Referee in the comfort of your very own Karma-runner!
-	...
-	assert.isTrue(true);
-	refute.isTrue(object);
-	...
-	assert.calledOnce(stub);
