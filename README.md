@@ -7,7 +7,7 @@ In addition to referee the plugin also expose the features in the [referee-sinon
 
 ## Instalation 
 
-	$ npm install karma-referee-plugin --save-dev
+	$ npm install karma-referee --save-dev
 
 Add ``referees` as a framework:
 
