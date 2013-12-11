@@ -1,6 +1,9 @@
 karma-referee
 =======================
 
+[![NPM](https://nodei.co/npm/karma-referee.png?stars=true&downloads=true)](https://npmjs.org/package/karma-referee)
+
+
 This project enables you to use [referee](https://github.com/busterjs/referee) (previously known as [buster-assertions](http://docs.busterjs.org/en/latest/modules/referees/#buster-assertions)) as part of your tests running on [Karma-runner](http://karma-runner.github.io/).
 
 In addition to referee the plugin also expose the features in the [referee-sinon]() module which provides sinon features as part of your assertions.
