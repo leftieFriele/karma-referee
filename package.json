@@ -24,9 +24,10 @@
     },
     "main": "lib/index.js",
     "dependencies": {
-        "referee": "1.0.1",
+        "referee": "1.0.2",
         "sinon": "1.7.x",
-        "referee-sinon": "1.0.1"
+        "referee-sinon": "1.0.1",
+        "formatio": "~1.0"
     },
     "devDependencies": {
         "mocha": "1.15.*"
