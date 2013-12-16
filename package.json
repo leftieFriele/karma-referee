@@ -1,35 +1,35 @@
 {
-    "name": "karma-referee",
-    "description": "A Karma plugin for the Referee assertions library",
-    "version": "0.1.0",
-    "keywords": [
-        "karma",
-        "karma-plugins",
-        "buster",
-        "sinon",
-        "referee"
-    ],
-    "scripts":{
-        "test": "./node_modules/.bin/mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:leftieFriele/karma-referee.git"
-    },
-    "licence": "MIT",
-    "homepage": "https://github.com/leftieFriele/karma-referee",
-    "author": {
-        "name": "Espen Dalløkken",
-        "email": "leftie.friele@gmail.com"
-    },
-    "main": "lib/index.js",
-    "dependencies": {
-        "referee": "1.0.2",
-        "sinon": "1.7.x",
-        "referee-sinon": "1.0.1",
-        "formatio": "~1.0"
-    },
-    "devDependencies": {
-        "mocha": "1.15.*"
-    }
+  "name": "karma-referee",
+  "description": "A Karma plugin for the Referee assertions library",
+  "version": "0.2.0",
+  "keywords": [
+    "karma",
+    "karma-plugins",
+    "buster",
+    "sinon",
+    "referee"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leftieFriele/karma-referee.git"
+  },
+  "licence": "MIT",
+  "homepage": "https://github.com/leftieFriele/karma-referee",
+  "author": {
+    "name": "Espen Dalløkken",
+    "email": "leftie.friele@gmail.com"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "referee": "1.0.2",
+    "sinon": "1.7.x",
+    "referee-sinon": "1.0.1",
+    "formatio": "~1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.15.*"
+  }
 }
