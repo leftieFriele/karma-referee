@@ -23,3 +23,8 @@ Then make sure you configure the ``karma-referee`` plugin.
 	]
 
 Viola, you can now enjoy referee's assertion awesomeness from the comfort of your very own Karma-runner!
+
+## Contributors
+
+- [davidaurelio](//github.com/davidaurelio)
+- [cjohansen](//github.com/cjohansen)
