@@ -1,7 +1,7 @@
 {
   "name": "karma-referee",
   "description": "A Karma plugin for the Referee assertions library",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "keywords": [
     "karma",
     "karma-plugins",
