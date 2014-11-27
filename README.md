@@ -1,5 +1,8 @@
 karma-referee
 =======================
+[![Build Status](https://api.travis-ci.org/leftieFriele/karma-referee.png?branch=master)](https://travis-ci.org/leftieFriele/karma-referee)
+[![Dependency Status](https://david-dm.org/leftieFriele/karma-referee.png)](https://david-dm.org/leftieFriele/karma-referee)
+[![devDependency Status](https://david-dm.org/leftieFriele/karma-referee/dev-status.png)](https://david-dm.org/leftieFriele/karma-referee#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/karma-referee.png?stars=true&downloads=true)](https://npmjs.org/package/karma-referee)
 
