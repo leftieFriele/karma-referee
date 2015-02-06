@@ -28,7 +28,6 @@ Viola, you can now enjoy referee's assertion awesomeness from the comfort of you
 ## Overview 
 
 In addition to referee, the plugin also exposes the features in the [referee-sinon]() module, which provides sinon-specific assertions such as `assert.calledOnce` and others. [Formatio](https://github.com/busterjs/formatio) is also used to pretty-print error messages from [Referee](https://github.com/busterjs/referee) and [Sinon](sinonjs.org).
-
 The plugin expose the assert, refute and expect objects on window.
 
 ## Contributors
